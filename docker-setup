@@ -1,0 +1,2 @@
+./foreachdocker "echo 'Server = http://172.18.0.1:8080/\$repo/os/\$arch' > /etc/pacman.d/mirrorlist"
+./foreachdocker "pacman -Syu vim --noconfirm"

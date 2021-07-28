@@ -1,0 +1,10 @@
+services:
+    vm1:
+        image: archlinux
+        command: sleep 100000000
+    vm2:
+        image: archlinux
+        command: sleep 100000000
+    vm3:
+        image: archlinux
+        command: sleep 100000000
